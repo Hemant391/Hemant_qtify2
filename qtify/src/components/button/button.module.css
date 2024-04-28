@@ -1,4 +1,6 @@
 .button{
+    font-family:'Poppins','fantasy';
+    font: "Poppins";
     border-radius: 12px;
     cursor: pointer;
     padding: 10px 16px;
