@@ -2,11 +2,19 @@
   --color-primary: #34C94B;
   --color-black:#121212;
   --color-white:#FFFFFF;
-
+  --background-color-primary: #000000;
 }
 
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+}
 
-
+html,body{
+  height: 100%;
+}
 
 
 body {
@@ -15,9 +23,10 @@ body {
   padding: 0px;
   margin: 0;
   line-height: 1.5;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
 }
 
 code {

@@ -17,3 +17,6 @@
 .cardsWrapper {
     margin-top: 18px;
 }
+.filtersWrapper{
+display: flex;
+}

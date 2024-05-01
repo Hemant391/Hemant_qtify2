@@ -1,4 +1,4 @@
-import styles from "./HomePage.module"
+import styles from "./HomePage.module.css"
 import React  from 'react';
 import Section from '../../components/section/Section';
 import Hero from '../../components/Hero/Hero';
@@ -10,7 +10,7 @@ import { useOutletContext } from "react-router-dom";
 
 export default function HomePage() {
     const {data}=useOutletContext();
-    const {newAlbums,topAlbums,songs } =data;
+    const {topAlbums,newAlbums,songs } =data;
     return(
         <>
         <Hero />
